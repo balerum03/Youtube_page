@@ -96,7 +96,7 @@
     .description {
         background-color: white;
         width: 560px;
-        height: 50rem;
+        height: 100%;
     }
     
     h3 {
@@ -113,8 +113,9 @@
 
     .flexbox{
      display: flex;
-     margin: 10px 0px 10px 10px ;
+     margin: 0px 0px 0px 10px ;
      align-items: flex-start;
+     
      
          }
     .margin_between{
@@ -151,7 +152,7 @@
 
     .views{
       
-        margin-left: 250px;
+        margin-left: 15rem;
         height: 1.5em;   
         border-bottom: 2px solid rgb(22, 122, 218);
         font-size: 1rem;
@@ -159,15 +160,47 @@
     }
     .small_icons{
        height: 20px;
-       width: 25px; 
+       width: 22px; 
     }
-    .aling{
-        border: 1px solid black;
+    .small_icons_square{
+        height: 20px;
+        width: 20px; 
+     }
+     .aling{
+      
         align-self: center;
         margin: 0px 20px 0px 5px;
         
     }
+    .alingthumbs{
+      
+        justify-self: center;
+        margin: 0px 0px 0px 5px;
+        
+    }
+    .noleftmargin{
+        
+        margin: 0px 22px 0px 0px;
+    }
 
+
+    .gray_border_top{
+        border-top: 2px solid #cecaca77;
+        padding: 5px;
+    }
+    
+     .thumbs{
+         margin-left: 10rem;
+     }
+   
+    h5{
+        margin: 0px ;
+        padding: 15px 15px 0px 15px;
+        font-size: .9vw;
+        font-family: arial;
+        font-weight:normal;
+        text-align: justify;
+    }
  
 
     * {
