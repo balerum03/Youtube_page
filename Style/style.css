@@ -90,13 +90,24 @@
         border: 2px solid rgb(22, 122, 218);
         padding: 10px 10px 10px 10px;
     }
+    .positionvideo{
+        position: absolute;
+    }
 
     /*Description section below*/
     
     .description {
         background-color: white;
+        margin-top: 21rem;
         width: 560px;
         height: 100%;
+    }
+    .description2{
+
+        background-color: white;
+        width: 560px;
+        height:18rem;
+
     }
     
     h3 {
@@ -201,8 +212,12 @@
         font-weight:normal;
         text-align: justify;
     }
- 
 
-    * {
-        margin: 0%;
+    .flexx{
+    display: flex;
+    }
+
+
+    *{
+        margin: 0;
     }
