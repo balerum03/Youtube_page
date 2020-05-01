@@ -95,7 +95,7 @@
     
     .description {
         background-color: white;
-        width: 41%;
+        width: 560px;
         height: 50rem;
     }
     
@@ -156,6 +156,16 @@
         border-bottom: 2px solid rgb(22, 122, 218);
         font-size: 1rem;
        
+    }
+    .small_icons{
+       height: 20px;
+       width: 25px; 
+    }
+    .aling{
+        border: 1px solid black;
+        align-self: center;
+        margin: 0px 20px 0px 5px;
+        
     }
 
  
