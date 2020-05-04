@@ -1,15 +1,15 @@
-    /* Background color*/
+/* Background color*/
     
     body {
         background-color: #F5F4EE;
     }
     /*Search bar header*/
     
-    .youtube-icon {
+    .youtube-logo {
         margin-right: 85px;
     }
     
-    .bar {
+    .navigation-bar {
         background-color: white;
         display: flex;
         max-width: 80%;
@@ -89,14 +89,14 @@
     }
     /*Description section below*/
     
-    .description {
+    .chanel-info {
         background-color: white;
         margin-top: 21rem;
         width: 560px;
         height: 100%;
     }
     
-    .description2 {
+    .video-description {
         background-color: white;
         width: 560px;
         height: 18rem;
@@ -110,7 +110,7 @@
         font-weight: bold;
     }
     
-    .center {
+    .icons {
         align-self: center;
     }
     
@@ -197,33 +197,31 @@
         text-align: justify;
     }
     
-    .flexx {
+    .flex {
         display: flex;
     }
     
-    .recomended {
+    .recomended-videos {
         margin-left: 1em;
-        width: 26%;
-        background-color: white;
-        font-weight: 600;
     }
     
-    h6 {
-        margin-left: 5px;
-        font-weight: normal;
-        font-family: Arial;
-        color: #767676;
-    }
-    
-    .recomended p {
-        width: 100%;
-        padding: 5px;
-    }
-    
-    .videos-spacing {
-        margin-bottom: 1em;
-    }
-    
-    * {
-        margin: 0;
-    }
+    width: 26%;
+    background-color: white;
+    font-weight: 600;
+}
+h6 {
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: Arial;
+    color: #767676;
+}
+.recomended p {
+    width: 100%;
+    padding: 5px;
+}
+.videos-spacing {
+    margin-bottom: 1em;
+}
+* {
+    margin: 0;
+}
