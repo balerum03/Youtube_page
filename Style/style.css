@@ -1,6 +1,6 @@
 /* Background color*/
     
-    body {
+    body{
         background-color: #F5F4EE;
     }
     /*Search bar header*/
@@ -84,12 +84,12 @@
         padding: 10px 10px 10px 10px;
     }
     
-    .positionvideo {
+    .absolute {
         position: absolute;
     }
     /*Description section below*/
     
-    .chanel-info {
+    .channel-info {
         background-color: white;
         margin-top: 21rem;
         width: 560px;
@@ -203,19 +203,22 @@
     
     .recomended-videos {
         margin-left: 1em;
+        width: 26%;
+        background-color: white;
+        font-weight: 600;
+        
     }
     
-    width: 26%;
-    background-color: white;
-    font-weight: 600;
-}
+    
+    
+
 h6 {
     margin-left: 5px;
     font-weight: normal;
     font-family: Arial;
     color: #767676;
 }
-.recomended p {
+.recomended-videos p {
     width: 100%;
     padding: 5px;
 }
