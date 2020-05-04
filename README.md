@@ -14,9 +14,9 @@ Twitter:@balerum03\
 Linkin:https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5/ 
 
 👤Author2:
-Full name:\
-Github:\
-twitter:\
+Full name:Victor Manuel Gonzalez Buitrago\
+Github:Shaqri\
+twitter:@VictorGonBu\
 Linkin:https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/  
 
 ## Contributing ##
