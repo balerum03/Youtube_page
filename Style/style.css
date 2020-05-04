@@ -16,41 +16,41 @@ body {
     background-color: white;
     display: flex;
     height: auto;
-    margin: 0% 20% 0 20%;
+    margin: 0 20% 0 20%;
     max-width: 80%;
 }
 
 .search_bar {
-    width: 250px;
-    height: 20px;
     align-self: center;
     border: 1px solid gray;
+    height: 20px;
+    width: 250px;
 }
 
 .search_button {
     align-self: center;
-    width: 25px;
-    height: 22px;
     border: 1px solid #cfcfcf;
+    height: 22px;
+    width: 25px;
 }
 
 .upload_icon {
-    max-width: 25%;
-    margin: 0px 18px 0px 200px;
     height: 25px;
+    margin: 0 18px 0 200px;
+    max-width: 25%;
 }
 
 .button_sign {
-    max-width: 100%;
-    max-height: 100%;
     background-color: rgb(0, 94, 218);
     border: 1px solid rgb(0, 94, 218);
     color: white;
-    padding: 10px 15px;
-    text-align: center;
-    font-size: .7vw;
     cursor: pointer;
     font-family: arial;
+    font-size: .7vw;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px 15px;
+    text-align: center;
 }
 
 
@@ -61,27 +61,27 @@ body {
 }
 
 .margin {
+    margin: 12px 20% 0 20%;
     width: 80%;
-    margin: 12px 20% 0% 20%;
 }
 
 
 /*warning language alert*/
 
 p {
-    margin: 0px;
-    padding: 0px;
-    max-width: 72%;
     font-family: arial;
     font-size: 13px;
+    padding: 0;
+    margin: 0;
+    max-width: 72%;
 }
 
 .top {
     background-color: rgb(22, 122, 218);
-    margin: 0px 0px 0px 0px;
     border: 2px solid rgb(22, 122, 218);
-    padding: 10px;
     color: white;
+    margin: 0;
+    padding: 10px;
 }
 
 .botton {
@@ -91,8 +91,8 @@ p {
 }
 
 iframe {
-    width: 560px;
     height: 315px;
+    width: 560px;
 }
 
 .absolute {
@@ -104,23 +104,23 @@ iframe {
 
 .channel-info {
     background-color: white;
+    height: 100%;
     margin-top: 21rem;
     width: 560px;
-    height: 100%;
 }
 
 .video-description {
     background-color: white;
-    width: 560px;
     height: 18rem;
+    width: 560px;
 }
 
 h3 {
-    margin: 0px;
-    padding: 15px 0px 0px 15px;
-    font-size: 1em;
     font-family: arial;
+    font-size: 1em;
     font-weight: bold;
+    margin: 0;
+    padding: 15px 0 0 15px;
 }
 
 .icons {
@@ -128,9 +128,9 @@ h3 {
 }
 
 .flexbox {
-    display: flex;
-    margin: 0px 0px 0px 10px;
     align-items: flex-start;
+    display: flex;
+    margin: 0 0 0 10;
 }
 
 .margin_between {
@@ -138,34 +138,34 @@ h3 {
 }
 
 .suscriptor_number {
-    margin: 5px 0px 0px 0px;
     border: 1px solid grey;
     border-left: 1px solid red;
+    font-size: .8em;
     height: 15px;
-    width: 25px;
+    margin: 5px 0 0 0;
     padding: 2px 2px 2px 2px;
     text-align: center;
-    font-size: .8em;
+    width: 25px;
 }
 
 .suscriptor_button {
+    background-color: red;
+    border: 2px solid red;
     margin-top: 5px;
     background-color: red;
-    color: white;
-    border: 2px solid red;
 }
 
 .white_icon {
     height: 10px;
+    margin: 2px 2px 0 2px;
     width: 15px;
-    margin: 2px 2px 0px 2px;
 }
 
 .views {
-    margin-left: 15rem;
-    height: 1.5em;
     border-bottom: 2px solid rgb(22, 122, 218);
     font-size: 1rem;
+    height: 1.5em;
+    margin-left: 15rem;
 }
 
 .small_icons {
@@ -180,16 +180,16 @@ h3 {
 
 .aling {
     align-self: center;
-    margin: 0px 20px 0px 5px;
+    margin: 0 20px 0 5px;
 }
 
 .alingthumbs {
     justify-self: center;
-    margin: 0px 0px 0px 5px;
+    margin: 0 0 0 5px;
 }
 
 .noleftmargin {
-    margin: 0px 22px 0px 0px;
+    margin: 0 22px 0 0;
 }
 
 .gray_border_top {
@@ -202,11 +202,11 @@ h3 {
 }
 
 h5 {
-    margin: 0px;
-    padding: 15px 15px 0px 15px;
-    font-size: .9em;
     font-family: arial;
+    font-size: .9em;
     font-weight: normal;
+    margin: 0;
+    padding: 15px 15px 0 15px;
     text-align: justify;
 }
 
@@ -215,22 +215,22 @@ h5 {
 }
 
 .recomended-videos {
-    margin-left: 1em;
-    width: 26%;
     background-color: white;
     font-weight: 600;
+    margin-left: 1em;
+    width: 26%;
 }
 
 h6 {
-    margin-left: 5px;
-    font-weight: normal;
-    font-family: Arial;
     color: #767676;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 5px;
 }
 
 .recomended-videos p {
-    width: 100%;
     padding: 5px;
+    width: 100%;
 }
 
 .videos-spacing {
