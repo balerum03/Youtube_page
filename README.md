@@ -19,7 +19,7 @@ Github:
 twitter:
 Linkin:https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/
 
-##🤝 Contributing
+## Contributing
 Contributions, issues and feature requests are welcome!
 
 ## Show your support
