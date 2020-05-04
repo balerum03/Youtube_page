@@ -1,7 +1,12 @@
 /* Background color*/
 
+* {
+    margin: 0;
+}
+
 body {
     background-color: #F5F4EE;
+    box-sizing: border-box;
 }
 
 
@@ -71,9 +76,9 @@ body {
 p {
     font-family: arial;
     font-size: 13px;
-    padding: 0;
     margin: 0;
     max-width: 72%;
+    padding: 0;
 }
 
 .top {
@@ -151,8 +156,8 @@ h3 {
 .suscriptor_button {
     background-color: red;
     border: 2px solid red;
+    color: white;
     margin-top: 5px;
-    background-color: red;
 }
 
 .white_icon {
@@ -184,7 +189,6 @@ h3 {
 }
 
 .alingthumbs {
-    justify-self: center;
     margin: 0 0 0 5px;
 }
 
@@ -235,8 +239,4 @@ h6 {
 
 .videos-spacing {
     margin-bottom: 1em;
-}
-
-* {
-    margin: 0;
 }
