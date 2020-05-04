@@ -12,12 +12,12 @@ body {
 }
 
 .navigation-bar {
+    align-items: flex-start;
     background-color: white;
     display: flex;
-    max-width: 80%;
     height: auto;
-    align-items: flex-start;
     margin: 0% 20% 0 20%;
+    max-width: 80%;
 }
 
 .search_bar {
