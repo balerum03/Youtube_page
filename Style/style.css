@@ -1,165 +1,242 @@
-    /* Background color*/
-    body {
-        background-color: #F5F4EE;
-    }
-    /*Search bar header*/
-    .youtube-icon{
-        margin-right: 85px;
-             
-    }
-    .bar {
-        background-color: white;
-        display: flex;
-        max-width: 80%;
-        height: auto;
-        align-items: flex-start;
-        margin: 0% 10% 0 10%;
-        
-    }
-    
-    .search_bar {
-        width:250px;  
-        height: 20px;  
-        align-self: center;
-        border: 1px solid gray ;
-    }
-  
-    
-    .search_button {
-        
-        align-self:center;
-        width: 25px;
-        height: 22px;
-        border: 1px solid #cfcfcf;
-        
-    }
-    
-    .upload_icon {
-        
-        max-width: 25%;
-        margin: 0px 18px 0px 200px;
-        height: 25px;
-    }
-    
-    .button_sign {
-        max-width: 100%;
-        max-height: 100%;
-        background-color: rgb(0, 94, 218);
-        border: 1px solid rgb(0, 94, 218);
-        color: white;
-        padding: 10px 15px;
-        text-align: center;
-        font-size: .7vw;
-        cursor: pointer;
-        font-family: arial;
-    
+/* Background color*/
 
-    }
-    
-    /*Spacing classes*/
-    .spacing {
-        margin-left: 10px;
-    }
-    
-    .margin {
-        width: 80%;
-        margin: 12px 10% 0% 10%;
-        
-    }
+* {
+    margin: 0;
+}
 
-    /*warning language alert*/
-    
-    p {
-        margin: 0px;
-        padding: 0px;
-        max-width: 100%;
-        font-family: arial;
-        font-size: 13px;
-    }
-    
-    .top {
-        background-color: rgb(22, 122, 218);
-        margin: 0px 0px 0px 0px;
-        border: 2px solid rgb(22, 122, 218);
-        padding: 10px;
-        color: white;
-    }
-    
-    .botton {
-        background-color: white;
-        border: 2px solid rgb(22, 122, 218);
-        padding: 10px 10px 10px 10px;
-    }
+body {
+    background-color: #F5F4EE;
+    box-sizing: border-box;
+}
 
-    /*Description section below*/
-    
-    .description {
-        background-color: white;
-        width: 41%;
-        height: 50rem;
-    }
-    
-    h3 {
-        margin: 0px ;
-        padding: 15px 0px 0px 15px;
-        font-size: 1.2vw;
-        font-family: arial;
-        font-weight:bold;
-        
-    }
-    .center{
-        align-self: center;
-    }
 
-    .flexbox{
-     display: flex;
-     margin: 10px 0px 10px 10px ;
-     align-items: flex-start;
-     
-         }
-    .margin_between{
-        margin: 5px;
-          }
-     
+/*Search bar header*/
 
-    .suscriptor_number{
-        margin:5px 0px 0px 0px;
-        border:1px solid grey;
-        border-left: 1px solid red;
-        height:15px ;
-        width: 25px;
-        padding: 2px 2px 2px 2px;
-        text-align: center;
-        font-size: .9vw;
-        
-     }
- 
+.youtube-logo {
+    margin-right: 85px;
+}
 
-    .suscriptor_button{
-        margin-top: 5px;
-        background-color: red;
-        color: white;
-        border: 2px solid red;
-    }
+.navigation-bar {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    height: auto;
+    margin: 0 20% 0 20%;
+    max-width: 80%;
+}
 
-    .white_icon{
-        height:10px ;
-        width: 15px;
-        margin: 2px 2px 0px 2px;
-        
-    }
+.search_bar {
+    align-self: center;
+    border: 1px solid gray;
+    height: 20px;
+    width: 250px;
+}
 
-    .views{
-      
-        margin-left: 250px;
-        height: 1.5em;   
-        border-bottom: 2px solid rgb(22, 122, 218);
-        font-size: 1rem;
-       
-    }
+.search_button {
+    align-self: center;
+    border: 1px solid #cfcfcf;
+    height: 22px;
+    width: 25px;
+}
 
- 
+.upload_icon {
+    height: 25px;
+    margin: 0 18px 0 200px;
+    max-width: 25%;
+}
 
-    * {
-        margin: 0%;
-    }
+.button_sign {
+    background-color: rgb(0, 94, 218);
+    border: 1px solid rgb(0, 94, 218);
+    color: white;
+    cursor: pointer;
+    font-family: arial;
+    font-size: .7vw;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+/*Spacing classes*/
+
+.spacing {
+    margin-left: 10px;
+}
+
+.margin {
+    margin: 12px 20% 0 20%;
+    width: 80%;
+}
+
+
+/*warning language alert*/
+
+p {
+    font-family: arial;
+    font-size: 13px;
+    margin: 0;
+    max-width: 72%;
+    padding: 0;
+}
+
+.top {
+    background-color: rgb(22, 122, 218);
+    border: 2px solid rgb(22, 122, 218);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.botton {
+    background-color: white;
+    border: 2px solid rgb(22, 122, 218);
+    padding: 10px 10px 10px 10px;
+}
+
+iframe {
+    height: 315px;
+    width: 560px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+/*Description section below*/
+
+.channel-info {
+    background-color: white;
+    height: 100%;
+    margin-top: 21rem;
+    width: 560px;
+}
+
+.video-description {
+    background-color: white;
+    height: 18rem;
+    width: 560px;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px 0 0 15px;
+}
+
+.icons {
+    align-self: center;
+}
+
+.flexbox {
+    align-items: flex-start;
+    display: flex;
+    margin: 0 0 0 10;
+}
+
+.margin_between {
+    margin: 5px;
+}
+
+.suscriptor_number {
+    border: 1px solid grey;
+    border-left: 1px solid red;
+    font-size: .8em;
+    height: 15px;
+    margin: 5px 0 0 0;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    width: 25px;
+}
+
+.suscriptor_button {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    margin-top: 5px;
+}
+
+.white_icon {
+    height: 10px;
+    margin: 2px 2px 0 2px;
+    width: 15px;
+}
+
+.views {
+    border-bottom: 2px solid rgb(22, 122, 218);
+    font-size: 1rem;
+    height: 1.5em;
+    margin-left: 15rem;
+}
+
+.small_icons {
+    height: 20px;
+    width: 22px;
+}
+
+.small_icons_square {
+    height: 20px;
+    width: 20px;
+}
+
+.aling {
+    align-self: center;
+    margin: 0 20px 0 5px;
+}
+
+.alingthumbs {
+    margin: 0 0 0 5px;
+}
+
+.noleftmargin {
+    margin: 0 22px 0 0;
+}
+
+.gray_border_top {
+    border-top: 2px solid #cecaca77;
+    padding: 5px;
+}
+
+.thumbs {
+    margin-left: 10rem;
+}
+
+h5 {
+    font-family: arial;
+    font-size: .9em;
+    font-weight: normal;
+    margin: 0;
+    padding: 15px 15px 0 15px;
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+}
+
+.recomended-videos {
+    background-color: white;
+    font-weight: 600;
+    margin-left: 1em;
+    width: 26%;
+}
+
+h6 {
+    color: #767676;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.recomended-videos p {
+    padding: 5px;
+    width: 100%;
+}
+
+.videos-spacing {
+    margin-bottom: 1em;
+}
